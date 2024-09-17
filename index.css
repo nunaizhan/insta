@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f473b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.birthday-container {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.birthday-container h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+
+.birthday-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.birthday-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.birthday-list li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    margin-right: 15px;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.info p {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.button{
+    background-color: #a72667;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+    
+button:hover {
+    background-color: #c9116d;
+}
